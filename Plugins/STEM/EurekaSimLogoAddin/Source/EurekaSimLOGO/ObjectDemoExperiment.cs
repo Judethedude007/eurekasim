@@ -219,9 +219,14 @@ namespace EurekaSimLOGO
                 objPropertyWindow.RemoveAll();
                 strGroupName = Constants.LOGO_PROPERTIES_TITLE;
                 objPropertyWindow.AddPropertyGroup(strGroupName);
+
                 string strInterval = m_objLogoExp.m_lSimulationInterval.ToString();
                 objPropertyWindow.AddPropertyItemAsString(strGroupName, Constants.LOGO_SIMULATION_INTERVAL_TITLE, strInterval, "Simulation Interval In Milli Seconds");
                 objPropertyWindow.AddColorPropertyItem(strGroupName, Constants.LOGO_COLOR_TITLE, Constants.HexConverter(m_objLogoExp.s_Color), "Select Background Color");
+
+                // Add a button for pendulum simulation
+                objPropertyWindow.AddButtonPropertyItem(strGroupName, "Simulate Pendulum", "Start Pendulum Simulation");
+
                 objPropertyWindow.EnableHeaderCtrl(Constants.FALSE);
                 objPropertyWindow.EnableDescriptionArea(Constants.TRUE);
                 objPropertyWindow.SetVSDotNetLook(Constants.TRUE);
@@ -243,10 +248,16 @@ namespace EurekaSimLOGO
         }
         public void OnPropertyChanged(string GroupName, string PropertyName, string PropertyValue)
         {
-
             if (GroupName == Constants.LOGO_PROPERTIES_TITLE)
             {
-                m_objLogoExp.OnPropertyChanged(GroupName, PropertyName, PropertyValue);
+                if (PropertyName == "Simulate Pendulum")
+                {
+                    SimulatePendulum();
+                }
+                else
+                {
+                    m_objLogoExp.OnPropertyChanged(GroupName, PropertyName, PropertyValue);
+                }
             }
             DrawScene();
         }
@@ -543,7 +554,6 @@ namespace EurekaSimLOGO
             openGLView.glEnd();
 
             // Draw the crossbar
-            float crossbarLength = 0.6f; // Adjust the length of the crossbar as desired
             float startX = centerX1 - radiusX2;
             float endX = centerX1 + radiusX2;
             float crossbarY = centerY1;
@@ -762,6 +772,40 @@ namespace EurekaSimLOGO
             }
         }
 
+        public void SimulatePendulum()
+        {
+            ApplicationView applicationView = new ApplicationView();
+            float pendulumLength = 1.0f; // Length of the pendulum
+            float angle = 0.0f; // Initial angle
+            float angularVelocity = 0.1f; // Angular velocity
+            float gravity = 9.8f; // Gravitational constant
+            float timeStep = 0.05f; // Time step for simulation
 
+            while (m_pManager.m_bSimulationActive)
+            {
+                applicationView.BeginGraphicsCommands();
+
+                // Calculate the new angle using simple pendulum physics
+                float angularAcceleration = -(gravity / pendulumLength) * (float)Math.Sin(angle);
+                angularVelocity += angularAcceleration * timeStep;
+                angle += angularVelocity * timeStep;
+
+                // Calculate pendulum position
+                float x = pendulumLength * (float)Math.Sin(angle);
+                float y = -pendulumLength * (float)Math.Cos(angle);
+
+                // Draw pendulum
+                applicationView.SetColorf(1.0f, 0.0f, 0.0f); // Red color for pendulum
+                applicationView.glBegin(Constants.GL_LINES);
+                applicationView.glVertex2f(0.0f, 0.0f); // Pivot point
+                applicationView.glVertex2f(x, y); // Pendulum bob position
+                applicationView.glEnd();
+
+                applicationView.EndGraphicsCommands();
+                applicationView.Refresh();
+
+                Thread.Sleep(50); // Adjust simulation speed
+            }
+        }
     }
 }

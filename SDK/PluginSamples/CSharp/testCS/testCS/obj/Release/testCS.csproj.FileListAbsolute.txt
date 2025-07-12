@@ -1,0 +1,6 @@
+D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\bin\Release\testCS.dll
+D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\bin\Release\testCS.pdb
+D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\bin\Release\testCS.tlb
+D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\obj\Release\testCS.csprojResolveAssemblyReference.cache
+D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\obj\Release\testCS.dll
+D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\obj\Release\testCS.pdb

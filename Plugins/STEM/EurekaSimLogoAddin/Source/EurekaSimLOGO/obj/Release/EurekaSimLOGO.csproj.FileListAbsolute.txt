@@ -8,3 +8,13 @@ C:\Users\VINEETH\Desktop\KTS\INTERNSHIP\eurekasim-main\Plugins\STEM\EurekaSimLOG
 C:\Users\VINEETH\Desktop\KTS\INTERNSHIP\eurekasim-main\Plugins\STEM\EurekaSimLOGO\EurekaSimLOGO\obj\Release\EurekaSimLOGO.Properties.Resources.resources
 C:\Users\VINEETH\Desktop\KTS\INTERNSHIP\eurekasim-main\Plugins\STEM\EurekaSimLOGO\EurekaSimLOGO\obj\Release\EurekaSimLOGO.csproj.GenerateResource.cache
 C:\Users\VINEETH\Desktop\KTS\INTERNSHIP\eurekasim-main\Plugins\STEM\EurekaSimLOGO\EurekaSimLOGO\obj\Release\EurekaSimLOGO.csproj.AssemblyReference.cache
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\bin\Release\EurekaSimLOGO.dll
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\bin\Release\EurekaSimLOGO.pdb
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\bin\Release\EurekaSimLOGO.tlb
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\obj\Release\EurekaSimLOGO.csproj.AssemblyReference.cache
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\obj\Release\EurekaSimLOGO.About.resources
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\obj\Release\EurekaSimLOGO.Properties.Resources.resources
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\obj\Release\EurekaSimLOGO.csproj.GenerateResource.cache
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\obj\Release\EurekaSimLOGO.csproj.CoreCompileInputs.cache
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\obj\Release\EurekaSimLOGO.dll
+D:\kts projects\Plugins\STEM\EurekaSimLogoAddin\Source\EurekaSimLOGO\obj\Release\EurekaSimLOGO.pdb

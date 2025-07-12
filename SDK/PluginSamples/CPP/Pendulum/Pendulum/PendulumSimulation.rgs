@@ -1,0 +1,26 @@
+HKCR
+{
+	PendulumSimulation.1 = s 'PendulumSimulation Class'
+	{
+		CLSID = s '{c3534744-764c-4fbb-9016-bd4bde521d0c}'
+	}
+	PendulumSimulation = s 'PendulumSimulation Class'
+	{		
+		CurVer = s 'PendulumSimulation.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {c3534744-764c-4fbb-9016-bd4bde521d0c} = s 'PendulumSimulation Class'
+		{
+			ProgID = s 'PendulumSimulation.1'
+			VersionIndependentProgID = s 'PendulumSimulation'
+			ForceRemove Programmable
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{9EB5244B-E488-42D0-AF91-6CE7DB618FD1}'
+			Version = s '1.0'
+		}
+	}
+}

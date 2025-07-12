@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8" ?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" label="PendulumPy Addin">
+    <ribbon>
+        <tabs>
+            <tab id="PS.Home" label="Home">
+                <group id="PS.Tab.Group.Preference.Settings.1" label="PendulumPy Preference Settings">
+                    <button label="Preference" onAction="InvokePreferenceSettings" image="0" />
+                </group>
+            </tab>
+            <tab id="Sample.Python.Setup" label="PendulumPy Setup" insertAfterQ="Basic Setup">
+                <group id="PS.Tab.Group.Default.Settings.1" label="Default Settings">
+                    <button label="Experiment Settings" onAction="InvokeDefaultSettings" image="1" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+=======
+<?xml version="1.0" encoding="UTF-8" ?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" label="PendulumPy Addin">
+    <ribbon>
+        <tabs>
+            <tab id="PS.Home" label="Home">
+                <group id="PS.Tab.Group.Preference.Settings.1" label="PendulumPy Preference Settings">
+                    <button label="Preference" onAction="InvokePreferenceSettings" image="0" />
+                </group>
+            </tab>
+            <tab id="Sample.Python.Setup" label="PendulumPy Setup" insertAfterQ="Basic Setup">
+                <group id="PS.Tab.Group.Default.Settings.1" label="Default Settings">
+                    <button label="Experiment Settings" onAction="InvokeDefaultSettings" image="1" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+>>>>>>> a62bc40d1fc44dc9aa3c2f1df1bd9a8ca9d1bb88
+</customUI>
