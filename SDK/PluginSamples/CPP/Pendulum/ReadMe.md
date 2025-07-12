@@ -1,11 +1,11 @@
 # 🕰️ EurekaSim Pendulum Plugin
 
-[![Pendulum Simulation on YouTube](https://img.shields.io/badge/YouTube-Watch%20Demo-red?logo=youtube)](https://www.youtube.com/watch?v=UVqJYrmjYRg&ab_channel=JudeTheDude)
 
 ---
 
 ## 📸 Demo
 
+[![Pendulum Simulation on YouTube](https://img.shields.io/badge/YouTube-Watch%20Demo-red?logo=youtube)](https://www.youtube.com/watch?v=UVqJYrmjYRg&ab_channel=JudeTheDude)
 
 ---
 
