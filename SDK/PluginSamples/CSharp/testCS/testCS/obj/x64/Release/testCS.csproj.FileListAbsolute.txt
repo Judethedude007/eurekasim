@@ -1,5 +1,0 @@
-D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\bin\x64\Release\testCS.dll
-D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\bin\x64\Release\testCS.pdb
-D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\bin\x64\Release\testCS.tlb
-D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\obj\x64\Release\testCS.dll
-D:\EurekaSim\SDK\PluginSamples\CSharp\testCS\testCS\obj\x64\Release\testCS.pdb
