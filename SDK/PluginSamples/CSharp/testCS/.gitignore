@@ -25,6 +25,10 @@
 *.dbmdl
 *.bak
 *.log
+*.VC.db
+*.ipch
+*.pch
+*.VC.VC.opendb
 *.tlog
 *.idb
 *.ipch
