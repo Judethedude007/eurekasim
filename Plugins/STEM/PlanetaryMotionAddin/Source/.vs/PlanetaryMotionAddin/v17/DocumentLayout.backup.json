@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C2EA237-2863-4A16-9D86-046C7ECECECB}|PlanetaryMotionAddin\\PlanetaryMotionAddin.csproj|D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\planetarymotionaddin\\planetarymotionaddinimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C2EA237-2863-4A16-9D86-046C7ECECECB}|PlanetaryMotionAddin\\PlanetaryMotionAddin.csproj|solutionrelative:planetarymotionaddin\\planetarymotionaddinimp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C2EA237-2863-4A16-9D86-046C7ECECECB}|PlanetaryMotionAddin\\PlanetaryMotionAddin.csproj|d:\\kts projects\\plugins\\stem\\planetarymotionaddin\\source\\planetarymotionaddin\\objectdemoexperiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C2EA237-2863-4A16-9D86-046C7ECECECB}|PlanetaryMotionAddin\\PlanetaryMotionAddin.csproj|solutionrelative:planetarymotionaddin\\objectdemoexperiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C2EA237-2863-4A16-9D86-046C7ECECECB}|PlanetaryMotionAddin\\PlanetaryMotionAddin.csproj|d:\\kts projects\\plugins\\stem\\planetarymotionaddin\\source\\planetarymotionaddin\\addinsimulationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C2EA237-2863-4A16-9D86-046C7ECECECB}|PlanetaryMotionAddin\\PlanetaryMotionAddin.csproj|solutionrelative:planetarymotionaddin\\addinsimulationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C2EA237-2863-4A16-9D86-046C7ECECECB}|PlanetaryMotionAddin\\PlanetaryMotionAddin.csproj|d:\\kts projects\\plugins\\stem\\planetarymotionaddin\\source\\planetarymotionaddin\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C2EA237-2863-4A16-9D86-046C7ECECECB}|PlanetaryMotionAddin\\PlanetaryMotionAddin.csproj|solutionrelative:planetarymotionaddin\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObjectDemoExperiment.cs",
+              "DocumentMoniker": "D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\PlanetaryMotionAddin\\ObjectDemoExperiment.cs",
+              "RelativeDocumentMoniker": "PlanetaryMotionAddin\\ObjectDemoExperiment.cs",
+              "ToolTip": "D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\PlanetaryMotionAddin\\ObjectDemoExperiment.cs",
+              "RelativeToolTip": "PlanetaryMotionAddin\\ObjectDemoExperiment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:21:00.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddinSimulationManager.cs",
+              "DocumentMoniker": "D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\PlanetaryMotionAddin\\AddinSimulationManager.cs",
+              "RelativeDocumentMoniker": "PlanetaryMotionAddin\\AddinSimulationManager.cs",
+              "ToolTip": "D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\PlanetaryMotionAddin\\AddinSimulationManager.cs",
+              "RelativeToolTip": "PlanetaryMotionAddin\\AddinSimulationManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:18:21.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanetaryMotionAddinImp.cs",
+              "DocumentMoniker": "D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\PlanetaryMotionAddin\\PlanetaryMotionAddinImp.cs",
+              "RelativeDocumentMoniker": "PlanetaryMotionAddin\\PlanetaryMotionAddinImp.cs",
+              "ToolTip": "D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\PlanetaryMotionAddin\\PlanetaryMotionAddinImp.cs",
+              "RelativeToolTip": "PlanetaryMotionAddin\\PlanetaryMotionAddinImp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:18:16.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cs [Design]",
+              "DocumentMoniker": "D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\PlanetaryMotionAddin\\About.cs",
+              "RelativeDocumentMoniker": "PlanetaryMotionAddin\\About.cs",
+              "ToolTip": "D:\\kts projects\\Plugins\\STEM\\PlanetaryMotionAddin\\Source\\PlanetaryMotionAddin\\About.cs [Design]",
+              "RelativeToolTip": "PlanetaryMotionAddin\\About.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:21:44.544Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
